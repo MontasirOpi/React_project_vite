@@ -7,16 +7,18 @@ import Header from './component/Header';
 const App = () => {
   return (
     
-    <div className="bg-slate-600">
+    <div className="bg-slate-600 h-screen">
 
     <Header  />
     <Content />
     <Footer />
+    
    
 
     </div>
   );
 };
+
 
 export default App;
 
